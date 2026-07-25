@@ -15,10 +15,10 @@
 }
 .navbar{
     position: sticky;
-    top: 0px;
+    top: 0;
 }
 .logo img{
-    padding: 0px 30px;
+    padding: 0 30px;
     width: 200px;
 }
 .nav-links{
@@ -29,7 +29,7 @@
     width: 52%;  
 }
 .nav-links a{
-    padding: 0px 8px;
+    padding: 0 8px;
     text-decoration: none;
     font-size: 15px;
     color: white;
@@ -79,7 +79,7 @@ li .btn{
     width: 100%;
     height: 700px;
     background-color: #0071f8;
-    border-radius: 0px 0px 100px 100px;
+    border-radius: 0 0 100px 100px;
     display: flex;
     align-items: start;
     padding-top: 80px;
@@ -94,8 +94,8 @@ li .btn{
 .header-text h1{
     color: white;
     font-size: 48px;
-    margin: 20px 0px 40px;
-    padding: 0px 0px 5px;
+    margin: 20px 0 40px;
+    padding: 0 0 5px;
     font-weight: 600;
 }
 .header-text p{
@@ -111,7 +111,7 @@ li .btn{
     background-color: white;
     border-radius: 30px;
     border: none;
-    padding: 0px 25px;
+    padding: 0 25px;
     font-size: 16px;
 }
 .header-text a{
@@ -179,7 +179,7 @@ li .btn{
 }
 .item{
     margin-top: 50px;
-    padding: 0px 12px;
+    padding: 0 12px;
     width: 100%;
     height: 205px;
     display: flex;
@@ -193,7 +193,7 @@ li .btn{
     height: 205px;
     border-radius: 20px;
     border:none solid cyan;
-    box-shadow: 0px 0px 20px;
+    box-shadow: 0 0 20px;
     text-align: center;
 }
 .item1 img:hover{
@@ -212,7 +212,7 @@ li .btn{
 }
 .item1 h4{
     font-size: 20px;
-    margin: 25px 0px 0px;
+    margin: 25px 0 0;
 }
 .item2{
     width: 306px;
@@ -220,7 +220,7 @@ li .btn{
     height: 205px;
     border-radius: 20px;
     border:1px solid cyan;
-    box-shadow: 0px 0px 20px;
+    box-shadow: 0 0 20px;
     text-align: center;
 }
 .item2 img:hover{
@@ -238,7 +238,7 @@ li .btn{
 }
 .item2 h4{
     font-size: 20px;
-    margin: 25px 0px 0px;
+    margin: 25px 0 0;
 }
 .item3{
     width: 306px;
@@ -246,7 +246,7 @@ li .btn{
     height: 205px;
     border-radius: 20px;
     border:1px solid cyan;
-    box-shadow: 0px 0px 20px;
+    box-shadow: 0 0 20px;
     text-align: center;
 }
 .item3 img:hover{
@@ -264,7 +264,7 @@ li .btn{
 }
 .item3 h4{
     font-size: 20px;
-    margin: 25px 0px 0px;
+    margin: 25px 0 0;
 }
 .item4{
     width: 306px;
@@ -272,7 +272,7 @@ li .btn{
     height: 205px;
     border-radius: 20px;
     border:1px solid cyan;
-    box-shadow: 0px 0px 20px;
+    box-shadow: 0 0 20px;
     text-align: center;
 }
 .item4 img:hover{
@@ -290,7 +290,7 @@ li .btn{
 }
 .item4 h4{
     font-size: 20px;
-    margin: 25px 0px 0px;
+    margin: 25px 0 0;
 }
 @media(max-width:920px){
     .item{
@@ -336,7 +336,7 @@ li .btn{
 .head{
     width: 100%;
     margin-top: 100px;
-    padding: 0px 75px;
+    padding: 0 75px;
     height: 120px;
     display: flex;
     align-items: center;
@@ -421,7 +421,7 @@ li .btn{
 .g2 h4{
     font-size: 14px;
     color: #7a7a7a;
-    padding: 25px 0px 15px 25px;
+    padding: 25px 0 15px 25px;
 }
 .g2 h2{
     display: inline;
@@ -449,7 +449,7 @@ li .btn{
 .g3 h4{
     font-size: 14px;
     color: #7a7a7a;
-    padding: 25px 0px 15px 25px;
+    padding: 25px 0 15px 25px;
 }
 .g3 h2{
     display: inline;
@@ -477,7 +477,7 @@ li .btn{
 .g4 h4{
     font-size: 14px;
     color: #7a7a7a;
-    padding: 25px 0px 15px 25px;
+    padding: 25px 0 15px 25px;
 }
 .g4 h2{
     display: inline;
@@ -567,8 +567,8 @@ li .btn{
 {
     width: 100%;
     height: 696px;
-    margin: 120px 0px 0px;
-    padding: 100px 0px;
+    margin: 120px 0 0;
+    padding: 100px 0;
     background-color: #f7353525;
     border-radius: 160px;
 }
@@ -576,14 +576,14 @@ li .btn{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 80px ;
+    padding: 0 80px ;
 }
 .lhs h4{
     font-size: 15px;
     color: #ee626b;
 }
 .lhs h1{
-    margin: 20px 0px 0px;
+    margin: 20px 0 0;
     font-size: 36px;
     color: #1e1e1e;
     font-weight: 700;
