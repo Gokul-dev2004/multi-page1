@@ -15,10 +15,10 @@
 }
 .navbar{
     position: sticky;
-    top: 0px;
+    top: 0;
 }
 .logo img{
-    padding: 0px 30px;
+    padding: 0 30px;
     width: 200px;
 }
 .nav-links{
@@ -29,7 +29,7 @@
     width: 52%;  
 }
 .nav-links a{
-    padding: 0px 8px;
+    padding: 0 8px;
     text-decoration: none;
     font-size: 15px;
     color: white;
@@ -80,12 +80,12 @@ li .btn{
     background-color: #0071f8;
     text-align: center;
     padding-top: 80px;
-    border-radius: 0px 0px 150px 150px;
+    border-radius: 0 0 150px 150px;
 }
 .page h1{
     font-size: 48px;
     color: white;
-    margin: 20px 0px;
+    margin: 20px 0;
 }
 .page p{
     font-size: 16px;
@@ -103,7 +103,7 @@ li .btn{
 @media(max-width:430px){
     .page{
         height: 350px;
-        border-radius: 0px 0px 50px 50px;
+        border-radius: 0 0 50px 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -141,7 +141,7 @@ span{
     color: #0071f8;
 }
 .right p{
-    margin: 50px 0px;
+    margin: 50px 0;
     color: #4a4a4a;
     line-height: 30px;
 }
@@ -253,7 +253,7 @@ span{
 .head{
     width: 100%;
     margin-top: 100px;
-    padding: 0px 75px;
+    padding: 0 75px;
     margin-bottom: 50px;
     height: 120px;
     display: flex;
@@ -474,6 +474,6 @@ span{
     .footer p{
         width: 100%;
         font-size: 14px;
-        padding: 0px 50px 20px;
+        padding: 0 50px 20px;
     }
 }
