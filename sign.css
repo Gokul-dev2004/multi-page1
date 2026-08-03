@@ -19,7 +19,7 @@
     top: 0;
 }
 .logo img{
-    padding: 0px 30px;
+    padding: 0 30px;
     width: 200px;
 }
 .nav-links{
@@ -30,7 +30,7 @@
     width: 52%;  
 }
 .nav-links a{
-    padding: 0px 8px;
+    padding: 0 8px;
     text-decoration: none;
     font-size: 15px;
     color: white;
